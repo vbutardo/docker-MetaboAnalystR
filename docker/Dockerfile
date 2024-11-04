@@ -1,9 +1,9 @@
 # Use an official conda base image
 FROM continuumio/miniconda3:latest
 
-LABEL maintainer="Your Organization"
+LABEL maintainer="Swinburne University of Technology"
 LABEL version="1.0"
-LABEL description="Comprehensive environment for MetaboAnalystR with Jupyter integration"
+LABEL description="Comprehensive Docker environment for MetaboAnalystR with Jupyter integration"
 
 # Set working directory
 WORKDIR /app
