@@ -1,0 +1,16 @@
+name: metaboanalystr
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.9
+  - ipykernel
+  - jupyter
+  - nb_conda_kernels
+  - notebook
+  - r-base=4.3
+  - r-devtools
+  - r-essentials
+  - r-irkernel
+prefix: /home/ubuntu/miniconda3/envs/metaboanalystr

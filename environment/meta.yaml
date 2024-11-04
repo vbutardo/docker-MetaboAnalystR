@@ -1,0 +1,16 @@
+package:
+  name: metaboanalystr-env
+  version: 1.0.0
+
+source:
+  path: .
+
+requirements:
+  run:
+    - python=3.9
+    - r-base=4.4.1
+    - r-essentials
+    - r-irkernel
+    - jupyter
+    - nb_conda_kernels
+    - bioconductor-metaboanalystr
